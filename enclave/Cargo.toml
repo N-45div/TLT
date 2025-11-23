@@ -1,0 +1,30 @@
+[package]
+name = "truth-markets-oracle"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.35", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.11", features = ["json"] }
+chrono = "0.4"
+anyhow = "1.0"
+thiserror = "1.0"
+hex = "0.4"
+sha2 = "0.10"
+ed25519-dalek = "2.0"
+rand = "0.8"
+
+# Sui SDK for interacting with the blockchain
+# Note: For MVP, we'll use HTTP API instead of SDK to avoid version conflicts
+# sui-sdk = "0.54"
+# sui-types = "0.54"
+
+# AWS Nitro Enclaves attestation
+# Note: In production, use aws-nitro-enclaves-nsm-api
+# For MVP, we'll simulate attestation
+# aws-nitro-enclaves-nsm-api = "0.4"
+
+[dev-dependencies]
+mockito = "1.2"
