@@ -16,8 +16,7 @@ Built for **Walrus Haulout Hackathon 2025** | **Track: Data Security and Privacy
 - **Network**: Sui Testnet
 - **Package ID**: `0x1908fe3aadd5a62f1d76c3f2d57744c726713756efe3b6c5e021bb7fb3f615f6`
 - **ClaimRegistry**: `0xac8e77054a98a909e857623efb599c5c008986b6f5f8668d3a9b2b2267f798c4`
-- **GitHub**: [https://github.com/N-45div/TLT](https://github.com/N-45div/TLT) _(Public)_
-- **Demo Video**: _(Coming soon - Max 3 minutes)_
+- **GitHub**: [https://github.com/N-45div/TLT](https://github.com/N-45div/TLT)
 - **Live App**: https://tlt-eosin.vercel.app/ ✨
 
 ## 🚀 What is TLT?
