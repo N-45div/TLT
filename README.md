@@ -6,11 +6,9 @@
 
 Built for **Walrus Haulout Hackathon 2025** | **Track: Data Security and Privacy**
 
-[![Demo](https://img.shields.io/badge/Demo-Live-brightgreen)](http://localhost:5173)
+[![Demo](https://img.shields.io/badge/Demo-Live-brightgreen)](https://tlt-eosin.vercel.app/)
 [![Testnet](https://img.shields.io/badge/Network-Sui_Testnet-blue)](https://testnet.suivision.xyz/)
-[![License](https://img.shields.io/badge/License-Apache_2.0-orange.svg)](LICENSE)
-
-![TLT Logo](./frontend/public/tlt-logo.svg)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ## 📋 Hackathon Submission
 
@@ -20,7 +18,7 @@ Built for **Walrus Haulout Hackathon 2025** | **Track: Data Security and Privacy
 - **ClaimRegistry**: `0xac8e77054a98a909e857623efb599c5c008986b6f5f8668d3a9b2b2267f798c4`
 - **GitHub**: [https://github.com/N-45div/TLT](https://github.com/N-45div/TLT) _(Public)_
 - **Demo Video**: _(Coming soon - Max 3 minutes)_
-- **Live App**: http://localhost:5173 _(Development)_
+- **Live App**: https://tlt-eosin.vercel.app/ ✨
 
 ## 🚀 What is TLT?
 
@@ -195,20 +193,6 @@ TLT/
 └── LICENSE
 ```
 
-## 📸 Screenshots
-
-### Polymarket-Style Market Cards
-![Market View](./docs/screenshots/markets.png)
-_Clean, modern UI with live probability displays and mini charts_
-
-### Create Claim with Encrypted Evidence
-![Create Claim](./docs/screenshots/create-claim.png)
-_Seal-encrypted evidence attached to claims_
-
-### Stake Interface
-![Staking](./docs/screenshots/stake-dialog.png)
-_Professional modal dialogs with validation_
-
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -235,7 +219,7 @@ cp .env.example .env
 npm run dev
 ```
 
-Open http://localhost:5173 and connect your wallet!
+Open https://tlt-eosin.vercel.app/ or run locally at http://localhost:5173
 
 ### Deploy Contracts (Advanced)
 
@@ -390,19 +374,13 @@ Privacy: Sources protected until public announcement
 - **Storage**: Walrus Testnet (Publisher API)
 - **Smart Contracts**: Sui Move, Sui CLI
 
-## 📚 Documentation
-
-- [Setup Guide](./docs/SETUP.md) - Detailed deployment instructions
-- [Architecture](./docs/ARCHITECTURE.md) - System design deep-dive
-- [Demo Checklist](./DEMO_CHECKLIST.md) - 3-minute demo script
-
 ## 🤝 Contributing
 
 This project was built for the Walrus Haulout Hackathon. Contributions are welcome after the hackathon ends!
 
 ## 📄 License
 
-Apache 2.0 - See [LICENSE](./LICENSE) for details
+MIT - See [LICENSE](./LICENSE) for details
 
 ## 👥 Team
 

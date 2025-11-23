@@ -50,6 +50,8 @@ npm run dev
 
 Open http://localhost:5173 and connect your Sui wallet!
 
+**✨ Live Demo**: https://tlt-eosin.vercel.app/
+
 ## Using the Application
 
 ### Create a Claim
