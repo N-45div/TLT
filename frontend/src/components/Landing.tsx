@@ -18,14 +18,6 @@ export const Landing: FC<LandingProps> = ({ onGetStarted }) => {
       </header>
 
       <main className="flex-1 flex flex-col items-center justify-center px-6 text-center">
-        <div className="mb-8">
-          <img 
-            src="/tlt-logo.svg" 
-            alt="TLT Logo" 
-            className="w-32 h-32 mx-auto mb-4 animate-pulse"
-          />
-        </div>
-
         <div className="inline-flex items-center gap-2 rounded-full border border-neutral-800/80 bg-black/40 px-4 py-1 text-[11px] text-neutral-400 mb-6">
           <span className="h-1.5 w-1.5 rounded-full bg-violet-400" />
           <span>Welcome to TLT</span>
