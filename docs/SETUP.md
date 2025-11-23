@@ -1,4 +1,4 @@
-# Truth Markets - Setup Guide
+# TLT - Setup Guide
 
 ## Prerequisites
 
@@ -11,8 +11,8 @@
 ### 1. Clone and Install
 
 ```bash
-git clone https://github.com/your-repo/truth-markets
-cd truth-markets/frontend
+git clone https://github.com/N-45div/TLT
+cd TLT/frontend
 npm install
 ```
 
@@ -350,9 +350,9 @@ async function decryptEvidence(claimId: string) {
 ## Support
 
 For issues or questions:
-1. Check [GitHub Issues](https://github.com/your-repo/truth-markets/issues)
+1. Check [GitHub Issues](https://github.com/N-45div/TLT/issues)
 2. Read the [Architecture Doc](./ARCHITECTURE.md)
-3. Review the [Demo Checklist](../DEMO_CHECKLIST.md)
+3. Submit feedback on our [GitHub Repo](https://github.com/N-45div/TLT)
 
 ---
 

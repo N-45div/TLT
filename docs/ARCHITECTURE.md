@@ -1,8 +1,8 @@
-# Truth Markets - Architecture
+# TLT - Architecture
 
 ## Overview
 
-Truth Markets is a decentralized prediction market platform with **Seal-encrypted evidence** storage. The system combines three key technologies:
+**TLT (TimeLocked Truth)** is a privacy-preserving prediction market platform with **Seal-encrypted evidence** storage. The system combines three key technologies:
 
 - **Seal**: Identity-based encryption with time-lock policies for private evidence
 - **Walrus**: Decentralized storage for claim specifications and encrypted evidence

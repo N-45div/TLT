@@ -51,7 +51,7 @@ export const Landing: FC<LandingProps> = ({ onGetStarted }) => {
             Enter app
           </button>
           <a
-            href="https://github.com/divijvaidya/truth-markets"
+            href="https://github.com/N-45div/TLT"
             target="_blank"
             rel="noreferrer"
             className="text-xs text-neutral-400 hover:text-neutral-200"
@@ -63,7 +63,7 @@ export const Landing: FC<LandingProps> = ({ onGetStarted }) => {
 
       <footer className="w-full max-w-6xl px-6 pb-6 flex items-center justify-between text-[11px] text-neutral-500">
         <span>Data Security &amp; Privacy Track • Seal + Walrus + Sui</span>
-        <span className="hidden sm:inline">Built by Truth Markets</span>
+        <span className="hidden sm:inline">TLT • TimeLocked Truth</span>
       </footer>
     </div>
   );

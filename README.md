@@ -170,7 +170,7 @@ This is the **first prediction market** that combines:
 ## Project Structure
 
 ```
-truth-markets/
+TLT/
 ├── contracts/                    # Sui Move smart contracts
 │   ├── sources/
 │   │   ├── claim_registry.move  # Main claim lifecycle & storage
@@ -220,8 +220,8 @@ _Professional modal dialogs with validation_
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/truth-markets
-cd truth-markets
+git clone https://github.com/N-45div/TLT
+cd TLT
 
 # Install frontend dependencies
 cd frontend
