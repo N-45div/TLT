@@ -18,21 +18,29 @@ export const Landing: FC<LandingProps> = ({ onGetStarted }) => {
       </header>
 
       <main className="flex-1 flex flex-col items-center justify-center px-6 text-center">
+        <div className="mb-8">
+          <img 
+            src="/tlt-logo.svg" 
+            alt="TLT Logo" 
+            className="w-32 h-32 mx-auto mb-4 animate-pulse"
+          />
+        </div>
+
         <div className="inline-flex items-center gap-2 rounded-full border border-neutral-800/80 bg-black/40 px-4 py-1 text-[11px] text-neutral-400 mb-6">
           <span className="h-1.5 w-1.5 rounded-full bg-violet-400" />
-          <span>Welcome to Truth Markets</span>
+          <span>Welcome to TLT</span>
         </div>
 
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight mb-4">
-          <span className="block text-neutral-100">Transform real-world claims into</span>
-          <span className="block bg-gradient-to-r from-violet-300 via-sky-300 to-emerald-300 bg-clip-text text-transparent">
-            private, provable truth archives.
+          <span className="block text-neutral-100">TimeLocked Truth</span>
+          <span className="block bg-gradient-to-r from-amber-300 via-orange-300 to-yellow-300 bg-clip-text text-transparent">
+            Where evidence stays sealed until proven.
           </span>
         </h1>
 
         <p className="max-w-2xl text-sm sm:text-base text-neutral-400 mb-8">
           Encrypt sensitive evidence with Seal, store it on Walrus, and settle markets on Sui.
-          A Linear-inspired interface for exploring encrypted truth vaults and prediction markets.
+          Privacy-preserving prediction markets with time-locked evidence decryption.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center gap-3">

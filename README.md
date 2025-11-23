@@ -1,8 +1,8 @@
-# 🎯 Truth Markets
+# 🔒 TLT - TimeLocked Truth
 
-**Encrypted Evidence Prediction Markets on Seal, Walrus & Sui**
+**Privacy-Preserving Prediction Markets with Time-Locked Evidence**
 
-> Decentralized prediction markets with Seal-encrypted evidence, Walrus storage, and attested multi-source oracle resolution.
+> Seal-encrypted evidence + Walrus storage + Sui smart contracts = Provably private truth markets
 
 Built for **Walrus Haulout Hackathon 2025** | **Track: Data Security and Privacy**
 
@@ -10,26 +10,28 @@ Built for **Walrus Haulout Hackathon 2025** | **Track: Data Security and Privacy
 [![Testnet](https://img.shields.io/badge/Network-Sui_Testnet-blue)](https://testnet.suivision.xyz/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-orange.svg)](LICENSE)
 
+![TLT Logo](./frontend/public/tlt-logo.svg)
+
 ## 📋 Hackathon Submission
 
 - **Track**: Data Security and Privacy
 - **Network**: Sui Testnet
 - **Package ID**: `0x1908fe3aadd5a62f1d76c3f2d57744c726713756efe3b6c5e021bb7fb3f615f6`
 - **ClaimRegistry**: `0xac8e77054a98a909e857623efb599c5c008986b6f5f8668d3a9b2b2267f798c4`
-- **GitHub**: [https://github.com/your-repo/truth-markets](https://github.com/your-repo/truth-markets) _(Keep Public)_
+- **GitHub**: [https://github.com/N-45div/TLT](https://github.com/N-45div/TLT) _(Public)_
 - **Demo Video**: _(Coming soon - Max 3 minutes)_
 - **Live App**: http://localhost:5173 _(Development)_
 
-## 🚀 What is Truth Markets?
+## 🚀 What is TLT?
 
-Truth Markets is the **first Polymarket-style prediction market on Sui** with end-to-end encrypted evidence and attested oracle resolution. Users can create claims, stake on outcomes, and have results verified by tamper-proof TEE oracles.
+**TLT (TimeLocked Truth)** is the **first Polymarket-style prediction market on Sui** with end-to-end encrypted evidence. Users can create claims with private evidence that stays encrypted until a deadline passes, enabling privacy-preserving truth markets.
 
 ## 🔒 Why Data Security and Privacy Track?
 
-Truth Markets directly addresses the **Data Security and Privacy** track by implementing:
+TLT directly addresses the **Data Security and Privacy** track by implementing:
 
 ### 1. End-to-End Encryption with Seal
-Unlike traditional prediction markets where all data is public, Truth Markets uses **Seal** (Mysten's identity-based encryption SDK) to protect sensitive evidence:
+Unlike traditional prediction markets where all data is public, TLT uses **Seal** (Mysten's identity-based encryption SDK) to protect sensitive evidence:
 
 - **Private Evidence**: Claim creators can attach confidential supporting data
 - **Zero Trust**: Evidence encrypted client-side before upload
@@ -56,7 +58,7 @@ public fun seal_approve(
 - **Immutable Rules**: Access logic stored on blockchain
 
 ### 3. Privacy-Preserving Markets
-Truth Markets enables **confidential prediction markets** for sensitive topics:
+TLT enables **confidential prediction markets** for sensitive topics:
 
 - **Whistleblower Claims**: Report fraud with encrypted evidence
 - **Insider Information**: Prove knowledge without revealing source

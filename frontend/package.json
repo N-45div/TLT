@@ -1,8 +1,9 @@
 {
-  "name": "truth-markets-frontend",
-  "version": "0.1.0",
+  "name": "tlt-frontend",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
+  "description": "TLT - TimeLocked Truth Markets Frontend",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

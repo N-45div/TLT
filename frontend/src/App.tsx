@@ -64,9 +64,9 @@ function App() {
               <main className="max-w-6xl mx-auto px-6 py-8">
                 <div className="mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
                   <div>
-                    <h1 className="text-xl font-semibold tracking-tight text-neutral-50">Truth Markets</h1>
+                    <h1 className="text-xl font-semibold tracking-tight text-neutral-50">TLT Markets</h1>
                     <p className="text-xs text-neutral-500">
-                      Encrypted evidence markets on Seal, Walrus &amp; Sui.
+                      TimeLocked Truth • Privacy-preserving prediction markets
                     </p>
                   </div>
                   <CreateClaimDialog />

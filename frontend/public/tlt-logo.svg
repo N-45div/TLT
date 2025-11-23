@@ -1,0 +1,39 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle with Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lockGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Circle -->
+  <circle cx="60" cy="60" r="58" fill="url(#bgGradient)" stroke="#6366f1" stroke-width="2"/>
+  
+  <!-- Lock Body -->
+  <rect x="42" y="58" width="36" height="28" rx="4" fill="url(#lockGradient)" stroke="#d97706" stroke-width="2"/>
+  
+  <!-- Lock Shackle (Open/Unlocking) -->
+  <path d="M 48 58 L 48 45 Q 48 35 60 35 Q 72 35 72 45 L 72 52" 
+        stroke="#fbbf24" 
+        stroke-width="4" 
+        fill="none" 
+        stroke-linecap="round"/>
+  
+  <!-- Keyhole -->
+  <circle cx="60" cy="68" r="4" fill="#1f2937"/>
+  <rect x="58" y="68" width="4" height="8" rx="1" fill="#1f2937"/>
+  
+  <!-- Clock/Time Element - Small dots around the lock -->
+  <circle cx="35" cy="55" r="2" fill="#e0e7ff" opacity="0.8"/>
+  <circle cx="85" cy="55" r="2" fill="#e0e7ff" opacity="0.8"/>
+  <circle cx="60" cy="38" r="2" fill="#e0e7ff" opacity="0.8"/>
+  <circle cx="60" cy="90" r="2" fill="#e0e7ff" opacity="0.8"/>
+  
+  <!-- TLT Text -->
+  <text x="60" y="107" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fbbf24" text-anchor="middle">TLT</text>
+</svg>
